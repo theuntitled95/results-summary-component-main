@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "HankenGrotesk-Medium";
+  src: url("../src/fonts/static/HankenGrotesk-Medium.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "HankenGrotesk-Bold";
+  src: url("../src/fonts/static/HankenGrotesk-Bold.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "HankenGrotesk-ExtraBold";
+  src: url("../src/fonts/static/HankenGrotesk-Medium.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
