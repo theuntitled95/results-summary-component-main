@@ -5,8 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../dist/output.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
   </head>
   <body>
-    <h1 class="bg-slate-600 text-white">Hello world!</h1>
+    <div class="container mx-auto min-h-screen desktop:grid place-items-center">
+      <div
+        class="desktop:shadow-2xl grid desktop:[grid-template-columns:repeat(2,350px)] desktop:rounded-3xl overflow-hidden"
+      >
+        <div
+          class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue text-white rounded-b-3xl desktop:rounded-3xl pt-4 pb-8 px-10 desktop:py-8"
+        >
+          <h1 class="text-light-lavender text-center font-bold">Your Result</h1>
+          <div
+            class="text-light-lavender flex flex-col gap-2 bg-gradient-to-b from-violet-blue to-persian-blue rounded-full items-center justify-center p-4 my-6 aspect-square w-36 mx-auto desktop:w-40 desktop:my-8"
+          >
+            <span class="text-white text-5xl font-bold">76</span> of 100
+          </div>
+          <div class="text-center flex flex-col gap-4">
+            <h3 class="text-2xl">Great</h3>
+            <p class="text-light-lavender">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="p-6 desktop:p-8 flex flex-col">
+          <h2 class="font-bold text-lg mb-4">Summary</h2>
+          <div class="flex flex-col gap-4 mb-6">
+            <div class="flex justify-between bg-light-red/10 rounded-md p-3">
+              <div class="flex gap-2 text-light-red font-bold">
+                <img src="images/icon-reaction.svg" alt="" />Reaction
+              </div>
+              <div class="">
+                <span class="font-bold text-dark-gray-blue">80</span> / 100
+              </div>
+            </div>
+            <div
+              class="flex justify-between bg-orangey-yellow/10 rounded-md p-3"
+            >
+              <div class="flex gap-2 text-orangey-yellow font-bold">
+                <img src="images/icon-memory.svg" alt="" />Memory
+              </div>
+              <div class="">
+                <span class="font-bold text-dark-gray-blue">92</span> / 100
+              </div>
+            </div>
+            <div class="flex justify-between bg-green-teal/10 rounded-md p-3">
+              <div class="flex gap-2 text-green-teal font-bold">
+                <img src="images/icon-verbal.svg" alt="" />Verbal
+              </div>
+              <div class="">
+                <span class="font-bold text-dark-gray-blue">61</span> / 100
+              </div>
+            </div>
+            <div class="flex justify-between bg-cobalt-blue/10 rounded-md p-3">
+              <div class="flex gap-2 text-cobalbg-cobalt-blue font-bold">
+                <img src="images/icon-visual.svg" alt="" />Visual
+              </div>
+              <div class="">
+                <span class="font-bold text-dark-gray-blue">72</span> / 100
+              </div>
+            </div>
+          </div>
+          <a
+            href=""
+            class="bg-dark-gray-blue text-white rounded-full font-bold py-3 text-center focus:bg-gradient-to-b hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue"
+            >Continue</a
+          >
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/theuntitled95">Talha Hussain</a>.
+      </div>
+    </div>
   </body>
 </html>
